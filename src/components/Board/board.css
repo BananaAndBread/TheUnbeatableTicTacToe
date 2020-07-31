@@ -1,0 +1,22 @@
+.board{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.board__grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.board__modal__button{
+    width: 100%;
+    border: gray 1px solid;
+    height: 3em;
+}
+.board__modal__winner-text{
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+
